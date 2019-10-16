@@ -1,0 +1,9 @@
+<!--index.wxml-->
+
+<view>hello world</view>
+<view>我的年龄：{{name}}</view>
+<view>当前计数：{{count}}</view>
+<view wx:for="{{students}}">{{item.name}}</view>
+
+<button size="mini" bindtap="add">+</button>
+<button size="mini" bindtap="sub">-</button>
